@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 15px;  
   
     /* center on page */
@@ -14,6 +14,35 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    background-color: #fff;
+    background-color: #EBEBED;
+
+    
+  }
+  
+  .LoginComponent_container__contents{
+  background-color: white;
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 
 }
+
+@media screen and (max-width: 600px) {
+
+  .LoginComponent_container{
+
+    background-color: white;
+
+  }
+  .LoginComponent_container__contents{
+    width: 90%;
+    height: 90%;
+    border: none;
+    
+  }
+
+
+}
+  

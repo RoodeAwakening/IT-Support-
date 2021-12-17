@@ -2,11 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   padding: 15px;  
-
-
-
+  width: 50%;
+  height: 50%;
+  
+  font-size: 1rem;
+ 
+  
 
   
 }
+
+@media screen and (max-width: 600px) {
+  .LoginForm_container{
+  
+    border: none;
+
+   
+  }
+
+}
+
+  

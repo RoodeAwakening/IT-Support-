@@ -1,0 +1,20 @@
+.ButtonLarge_container{
+  width: 100%;
+
+}
+
+.ButtonLarge_container button{
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ 
+
+}
+
+
