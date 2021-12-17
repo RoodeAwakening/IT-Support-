@@ -1,4 +1,4 @@
-# Flask React Project
+# Help desk ticketing system
 
 This is the starter for the Flask React project.
 

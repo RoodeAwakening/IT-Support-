@@ -1,10 +1,11 @@
 import React from 'react'
+import LoginComponent from '../../organisms/LoginComponent/LoginComponent'
 import styles from './Login.module.css'
 
 function Login() {
   return (
     <div>
-      <h2>Hello Login</h2>
+      <LoginComponent/>
       
     </div>
   )

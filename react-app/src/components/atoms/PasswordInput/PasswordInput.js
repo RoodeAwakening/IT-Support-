@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './PasswordInput.module.css'
 
 
 function PasswordInput({UserPassword}) {
@@ -10,9 +11,10 @@ function PasswordInput({UserPassword}) {
 
 
   return (
-    <div>
-      <label htmlFor="password">Password</label>
+    <div className={styles.PasswordInput_container}>
+      <label htmlFor="password"></label>
       <input 
+      className={styles.PasswordInput_container__input}
       username = {UserPassword}
       type = 'password'
       placeholder='Password'

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from './UsernameInput.module.css'
 
 
 function UsernameInput({UserName}) {
@@ -11,9 +12,10 @@ function UsernameInput({UserName}) {
 
 
   return (
-    <div>
-      <label htmlFor="username">Username</label>
+    <div className={styles.UsernameInput_container}>
+      <label htmlFor="username"></label>
       <input 
+      className={styles.UsernameInput_container__input}
       username = {UserName}
       type = 'text'
       placeholder='username'
